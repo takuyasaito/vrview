@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<script src="./build/vrview.min.js"></script>
+		
+		<script>
+			window.addEventListener('load', onVrViewLoad);
+			function onVrViewLoad() {
+			  var vrView = new VRView.Player('#vrview', {
+			    image: './image/R0010001.JPG'
+			  });
+			}
+		</script>
+	</head>
+	<body>
+		<div id="vrview"></div>
+	</body>
+</html>
